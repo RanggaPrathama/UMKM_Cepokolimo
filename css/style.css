@@ -6,9 +6,7 @@
     --dark: #111111;
 }
 
-.col-lg-6{
-    padding: 0 !important;
-}
+
 
 .back-to-top {
     position: fixed;
@@ -257,6 +255,7 @@
 .about-img img {
     position: relative;
     z-index: 2;
+    
 }
 
 .about-img::before {
@@ -353,6 +352,14 @@
        
     }
     
+}
+
+.product-grid .col-lg-6{
+    padding: 0 !important;
+}
+
+.product-grid .text-product{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 
