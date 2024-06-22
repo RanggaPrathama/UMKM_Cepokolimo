@@ -6,6 +6,10 @@
     --dark: #111111;
 }
 
+.col-lg-6{
+    padding: 0 !important;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -327,6 +331,43 @@
     color: #3CB815;
     transition: color 0.7s ease;
 }
+
+/*** Section Product Grid ***/
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.product-grid .image-product .img-fluid img {
+    min-height: 100px !important;
+}
+
+@media (min-width: 992px){
+    .product-grid .content-1 .image-product {
+        width: 50%;
+        height: auto;
+    }
+    .product-grid .content-1 .text-product {
+        width: 50%;
+        padding: 20px;
+       
+    }
+    
+}
+
+
+.content-1 .image-product{
+    background-size: cover;
+    background-position: center center;
+}
+
+.product-grid .content-1{
+  
+    background-color: white;
+}
+
+
+
 
 /*** Product ***/
 .nav-pills .nav-item .btn {
