@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Foody - Organic Food Website Template</title>
+    <title>Desa Cepokolimo</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -105,7 +105,7 @@
                         <div class="container">
                             <div class="row justify-content-start">
                                 <div class="col-lg-7">
-                                    <h1 class="display-4 mb-5 animated slideInDown">Selamat Datang Di Desa Cepokolimo</h1>
+                                    <h1 class="display-4 mb-5 animated slideInDown" style="color: #F65005;">Selamat Datang Di Desa Cepokolimo</h1>
                                     <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-5">Get Started</a>
                                   
                                 </div>
@@ -119,8 +119,8 @@
                         <div class="container">
                             <div class="row justify-content-start">
                                 <div class="col-lg-7">
-                                    <h4 class="animated slideInDown">UMKM Cepokolimo: </h4>
-                                    <h1 class="display-2 mb-5 animated slideInDown">Membangun Ekonomi Lokal</h1>
+                                    <h3 class="animated slideInDown" style="color: #3CB815;">UMKM Cepokolimo: </h3>
+                                    <h1 class="display-2 mb-5 animated slideInDown" style="color: #F65005;">Membangun Ekonomi Lokal</h1>
                                     <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-5">Get Started</a>
                                 </div>
                             </div>
@@ -161,14 +161,14 @@
 
                 <!-- Modal -->
         <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog ">
+            <div class="modal-dialog modal-md ">
             <div class="modal-content">
                 <div class="modal-header">
                 <h1 class="modal-title fs-5" id="staticBackdropLabel">Profile UMKM Cepokolimo</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <video id="modalVideo" class="w-100" autoplay>
+                    <video id="modalVideo" class="w-100" controls>
                         <source src="img/videoUMKM.mp4" type="video/mp4">
                         Browser Anda tidak mendukung tag video.
                     </video>
@@ -249,6 +249,7 @@
                         <div class="text-product">
                             <h3>CAKE & CATERING</h3>
                             <p>bu niah cake and catering</p>
+                            <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-3">Selengkapnya</a>
                         </div>
                     </div>
                     <div class="content-1 d-block d-lg-flex">
@@ -258,6 +259,7 @@
                         <div class="text-product">
                             <h3>TERNAK SAPI PERAH </h3>
                             <p>pendiri bapak anang</p>
+                            <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-3">Selengkapnya</a>
                         </div>
                     </div>
                   
@@ -270,6 +272,7 @@
                         <div class="text-product">
                             <h3>PRODUKSI KUE KERING  </h3>
                             <p>Rio Putra Cookies</p>
+                            <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-3">Selengkapnya</a>
                         </div>
                     </div>
                     <div class="content-1 d-block d-lg-flex">
@@ -279,6 +282,7 @@
                         <div class="text-product">
                             <h3>PEMBIBITAN JAMUR</h3>
                             <p>Bapak Lasmari</p>
+                            <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-3">Selengkapnya</a>
                         </div>
                     </div>
                   
@@ -293,6 +297,7 @@
                         <div class="text-product">
                             <h3>KERUPUK & JAMU</h3>
                             <p>Ibu Suwarni</p>
+                            <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-3">Selengkapnya</a>
                         </div>
                     </div>
                    
@@ -306,6 +311,7 @@
                         <div class="text-product">
                             <h3>ROTI BASAH & KUE</h3>
                             <p>Ibu Kasiyati</p>
+                            <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-3">Selengkapnya</a>
                         </div>
                     </div>
                   
@@ -400,7 +406,7 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h1 class="fw-bold text-primary mb-4">F<span class="text-secondary">oo</span>dy</h1>
+                    <h2 class="fw-bold text-secondary m-0">Desa <span class="text-primary">Cepokolimo</span></h2>
                     <p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
@@ -470,9 +476,7 @@
         var modal = document.getElementById('staticBackdrop');
         var video = document.getElementById('modalVideo');
 
-        modal.addEventListener('shown.bs.modal', function () {
-            video.play();
-        });
+       
 
         modal.addEventListener('hidden.bs.modal', function () {
             video.pause();
