@@ -160,19 +160,21 @@
                 </div>
 
                 <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
+        <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog ">
             <div class="modal-content">
                 <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Profile UMKM Cepokolimo</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                ...
+                    <video id="modalVideo" class="w-100" autoplay>
+                        <source src="img/videoUMKM.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung tag video.
+                    </video>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
             </div>
@@ -463,6 +465,20 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+        var modal = document.getElementById('staticBackdrop');
+        var video = document.getElementById('modalVideo');
+
+        modal.addEventListener('shown.bs.modal', function () {
+            video.play();
+        });
+
+        modal.addEventListener('hidden.bs.modal', function () {
+            video.pause();
+            video.currentTime = 0; 
+        });
+    </script>
 </body>
 
 </html>
