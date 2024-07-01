@@ -295,7 +295,7 @@
   left: 50%;
   margin: 0;
   transform: translateX(-50%);
-  background-color: green; /* Warna kotak hijau */
+  background-color: var(--primary); /* Warna kotak hijau */
   color: white;
   padding: 20px 30px;
   border-radius: 10px;
