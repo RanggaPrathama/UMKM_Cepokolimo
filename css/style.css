@@ -254,6 +254,79 @@
   transform: translateX(0);
 }
 
+
+/*** Section Kades ***/
+.image-kades{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  z-index: 0;
+  width: 100%;
+  height: auto;
+}
+
+
+/* .image-kades img{
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+
+
+.image-kades img{
+  max-height: 500px; 
+  width: auto;
+  display: block;
+}
+
+
+.card-kades h6 {
+  position: absolute;
+  bottom: 0;
+  width: 70%;
+  left: 50%;
+  margin: 0;
+  transform: translateX(-50%);
+  background-color: green; /* Warna kotak hijau */
+  color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  z-index: 1; /* Memastikan kotak berada di atas gambar */
+  text-align: center;
+}
+.visi-misi {
+  padding: 10px;
+}
+.visi-misi h1 {
+  padding: 10px 0px;
+ margin-bottom: 30px;
+}
+
+
+.visi-misi h2 {
+  color: #2C3E50;
+  margin-bottom: 15px;
+}
+
+.visi-misi p, .visi-misi ul {
+  color: #34495E;
+  line-height: 1.6;
+}
+
+.visi-misi ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+
+
+
+
+
+
 /*** About ***/
 .about-img img {
   position: relative;
