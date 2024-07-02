@@ -254,20 +254,19 @@
   transform: translateX(0);
 }
 
-
 /*** Section Kades ***/
-.image-kades{
+.image-kades {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   z-index: 0;
   width: 100%;
   height: auto;
 }
 
-@media(min-width:320px) and (max-width:885px){
-  .visi-misi{
+@media (min-width: 320px) and (max-width: 885px) {
+  .visi-misi {
     margin-top: 30px;
   }
 }
@@ -279,14 +278,11 @@
   background-size: cover;
 } */
 
-
-
-.image-kades img{
-  max-height: 500px; 
+.image-kades img {
+  max-height: 500px;
   width: auto;
   display: block;
 }
-
 
 .card-kades h6 {
   position: absolute;
@@ -307,17 +303,17 @@
 }
 .visi-misi h1 {
   padding: 10px 0px;
- margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-
 .visi-misi h2 {
-  color: #2C3E50;
+  color: #2c3e50;
   margin-bottom: 15px;
 }
 
-.visi-misi p, .visi-misi ul {
-  color: #34495E;
+.visi-misi p,
+.visi-misi ul {
+  color: #34495e;
   line-height: 1.6;
 }
 
@@ -325,12 +321,6 @@
   list-style-type: disc;
   padding-left: 20px;
 }
-
-
-
-
-
-
 
 /*** About ***/
 .about-img img {
@@ -593,8 +583,6 @@
   color: var(--primary) !important;
 }
 
-
-
 .card {
   border: none;
   border-radius: 20px;
@@ -630,14 +618,12 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-
-/*** Testimonial ***/
+/*** Keanggotaan ***/
 .testimonial-carousel .owl-item .testimonial-item img {
+  object-fit: cover;
   width: 100%;
-  max-height: 350px;
-  
+  height: 450px; /* Sesuaikan dengan kebutuhan */
 }
-
 .testimonial-carousel .owl-item .testimonial-item,
 .testimonial-carousel .owl-item .testimonial-item * {
   transition: 0.5s;
@@ -787,29 +773,28 @@
   }
 }
 
-
 /*** Detail Whatsapp ***/
 
 .whatsapp-contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    opacity: 1; /* Opacity awal (visible) */
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Transisi untuk opacity dan transform */
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  opacity: 1; /* Opacity awal (visible) */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Transisi untuk opacity dan transform */
+}
 
-  .whatsapp-contact:hover {
-    opacity: 0.7; /* Opacity saat di-hover */
-    transform: translateY(-5px); /* Translasi ke atas saat di-hover */
-  }
+.whatsapp-contact:hover {
+  opacity: 0.7; /* Opacity saat di-hover */
+  transform: translateY(-5px); /* Translasi ke atas saat di-hover */
+}
 
-  .whatsapp-logo {
-    width: 50px;
-    height: auto;
-  }
+.whatsapp-logo {
+  width: 50px;
+  height: auto;
+}
 
-  .whatsapp-contact a {
-    color: green;
-    text-decoration: none;
-  }
+.whatsapp-contact a {
+  color: green;
+  text-decoration: none;
+}
